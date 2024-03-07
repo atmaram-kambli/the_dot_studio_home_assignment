@@ -106,3 +106,27 @@ body {
     width: 100%;
     --content-display: block;
 }
+
+
+@media screen and (max-width: 768px) {       
+    .why-choose-us {
+        margin: 30px;
+    }
+    .cards {
+        gap: 48px;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 492px) {
+    .why-choose-us {
+        margin: 10px;
+    }
+    .card {
+        width: 350px;
+    }
+}
