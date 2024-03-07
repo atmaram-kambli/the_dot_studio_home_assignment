@@ -27,6 +27,7 @@ body {
 .cards {
     color: #ffffff;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 48px;
